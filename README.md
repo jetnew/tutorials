@@ -4,8 +4,8 @@ Contains tutorials, quickstarts and demos of anything I might reference again in
 
 ## Content
 
-1. [Streamlit](/streamlit/README.md) (Updated 24/4/2021)
-2. Python Telegram Bot
-3. Heroku
-4. FastAPI
-5. Flask
+* [Streamlit](/streamlit/README.md) (Updated 24/4/2021)
+* [Python Telegram Bot](/telegram-bot/README.md) (Updated 24/4/2021)
+* Heroku
+* FastAPI
+* Flask
