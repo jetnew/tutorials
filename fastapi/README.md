@@ -21,3 +21,7 @@ FastAPI is a [framework](https://fastapi.tiangolo.com/) to create API quickly an
        return {"item_id": item_id, "q": q}
    ```
 3. Run with `uvicorn main:app --reload`.
+
+## More info
+* Docs are at `http://127.0.0.1:8000/docs`
+* Sample query at `http://127.0.0.1:8000/items/5?q=somequery`
