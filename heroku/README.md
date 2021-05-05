@@ -23,3 +23,32 @@ With reference from [Getting Started with Python](https://devcenter.heroku.com/a
 10. Open app with `heroku open`.
 11. View logs with `heroku logs --tail`.
 12. Check how many dynos are running using `heroku ps`.
+
+## Deploy to Heroku Button
+1. Create `app.json` in the **root** directory.
+   ```
+   {
+     "name": "Node.js Sample",
+     "description": "A barebones Node.js app using Express",
+     "repository": "https://github.com/heroku/node-js-getting-started",
+     "logo": "https://node-js-sample.herokuapp.com/node.png",
+     "keywords": ["node", "express", "static"],
+     "addons": ["runtime-dyno-metadata"]
+   }
+   ```
+2. Heroku add-ons, custom environment variables or post-deploy scripts can be specified in `app.json` [too](https://devcenter.heroku.com/articles/app-json-schema).
+3. Validate the `app.json` works by checking with:
+   
+   `https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started/tree/master`
+4. Add the button to markdown using:
+
+   `[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started)`
+
+5. Or add the button to HTML using:
+
+   ```
+   <a href="https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started">
+      <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+   </a>
+   ```
+6. This is how it looks: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/heroku/node-js-getting-started)
