@@ -9,4 +9,5 @@ Contains tutorials, quickstarts and demos of anything I might reference again in
 * [FastAPI](/fastapi/README.md) (Updated 3/5/2021)
 * [Heroku](/heroku/README.md) (Updated 6/5/2021)
 * [Postgresql](/postgresql/README.md) (Updated 10/5/2021)
+* [Jupyter Book](/jupyter-book/README.md) (Updated 22/5/2021)
 * Flask
