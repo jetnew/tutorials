@@ -21,4 +21,5 @@
 
 ## Update book
 1. `jb build <book>`
-2. `ghp-import -n -p -f book/_build/html`
+2. `cd <book>`
+3. `ghp-import -n -p -f _build/html`
